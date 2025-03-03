@@ -1,0 +1,59 @@
+@import "../../_globalColor";
+
+.plog-header {
+  @extend .common-header;
+}
+
+.plog-main-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+//   padding: 0 20px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  flex-direction: row; 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0 10px;
+ 
+}
+}
+/* Dark Mode Styles */
+.dark-mode {
+  .plog-header-text {
+    color: $textColorDark;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .plog-header {
+    .plog-header-text {
+      font-size: 1.8rem;
+    }
+  }
+
+  .plog-main-div {
+    .plog-card {
+      width: 100%;
+      min-width: 300px;
+      margin-bottom: 20px;
+      padding: 20px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      h5, p {
+        font-size: 14px;
+        line-height: 1.3;
+      }
+    }
+    //flex-direction: column;
+    //grid-template-columns: 1fr;
+    //padding: 0 10px;
+  }
+}
