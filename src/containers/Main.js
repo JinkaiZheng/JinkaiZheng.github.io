@@ -16,7 +16,10 @@ import Plog from "./plog/plog";
 
 const Main = () => {
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
-  const { isDark } = useContext(StyleContext);
+  const { isDark ,changeTheme} = useContext(StyleContext);
+  <button onClick={changeTheme}>
+  {isDark ? "切换白天模式" : "切换黑夜模式"}
+  </button>
 
   useEffect(() => {
     if (splashScreen.enabled) {

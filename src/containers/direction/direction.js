@@ -10,15 +10,6 @@ export default function Direction() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="direction">
       <div className="direction-main-div">
-        <Fade left duration={1000}>
-          <div className="direction-image-div">
-            <img
-              alt="Gait Recognition"
-              src={require("../../assets/images/gait.png")}
-              className="direction-image"
-            />
-          </div>
-        </Fade>
         <Fade right duration={1000}>
           <div className="direction-text-div">
             <h1 className={isDark ? "dark-mode direction-heading" : "direction-heading"}>
@@ -44,6 +35,15 @@ export default function Direction() {
                 </p>
               ))}
             </div>
+          </div>
+        </Fade>
+        <Fade left duration={1000}>
+          <div className="direction-image-div">
+            <img
+              alt="Gait Recognition"
+              src={require("../../assets/images/gait.png")}
+              className="direction-image"
+            />
           </div>
         </Fade>
       </div>

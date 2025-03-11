@@ -18,6 +18,9 @@ import ljb from "./assets/images/ljb.jpg";
 import cs from "./assets/images/cs.jpg";
 import plog0 from "./assets/images/plog0.png";
 import plog1 from "./assets/images/plog1.png";
+import plog2 from "./assets/images/plog2.jpg";
+import lw from "./assets/images/lw.png";
+import lxc from "./assets/images/lxc.png";
 
 
 // Splash Screen
@@ -162,7 +165,7 @@ const groupMembers = {
         en: "Senior Researcher",
         zh: "资深高级研究员"
       },
-      image: "path/to/john-doe.jpg",
+      image: lxc,
       description: {
         en: "JD Explore Academy",
         zh: "京东探索研究院"
@@ -183,7 +186,7 @@ const groupMembers = {
         en: "Professor",
         zh: "教授"
       },
-      image: "path/to/john-doe.jpg",
+      image: lw,
       description: {
         en: "University of Science and Technology of China",
         zh: "中国科学技术大学"
@@ -616,6 +619,12 @@ const plogContent = {
       image: plog1,
       imageAlt: "plog1",
     },
+    {
+      title: "",
+      description: "开学后一起聚餐",
+      image: plog2,
+      imageAlt: "plog2",
+    },
   ],en: [
     {
       title: "",
@@ -628,7 +637,13 @@ const plogContent = {
       description: "Dine together",
       image: plog1,
       imageAlt: "plog1",
-    }]},
+    },
+    {
+      title: "",
+      description: "Having a meal together after the start of the school term",
+      image: plog2,
+      imageAlt: "plog2",
+    },]},
 };
 
 

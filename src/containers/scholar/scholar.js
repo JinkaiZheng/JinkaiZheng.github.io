@@ -4,8 +4,6 @@ import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import ScholarCard from "../../components/scholarCard/ScholarCard";
 import ProjectCard from "../../components/projectCard/ProjectCard";
-
-
 import { academicAchievements, projects} from "../../portfolio";
 
 export default function Scholar() {
