@@ -6,7 +6,7 @@
 
 import fastreid from "./assets/images/FastReID-Logo.png";
 import jkAnimation from "./assets/lottie/jkAnimation"; // Rename to your file name for custom animation
-import zjk from "./assets/images/profile.png";
+import zjk from "./assets/images/zjk2.jpg";
 import chf from "./assets/images/chf.jpg";
 import jxx from "./assets/images/jxx.jpg";
 import yc from "./assets/images/yc.jpg";
@@ -21,6 +21,10 @@ import plog1 from "./assets/images/plog1.png";
 import plog2 from "./assets/images/plog2.jpg";
 import lw from "./assets/images/lw.png";
 import lxc from "./assets/images/lxc.png";
+import whl from "./assets/images/whl.jpg";
+import wjx from "./assets/images/wjx.jpg";
+import ysp from "./assets/images/ysp.jpg";
+
 
 
 // Splash Screen
@@ -38,13 +42,17 @@ const illustration = {
 };
 
 const greeting = {
-  main: "Homepage",
+  main: "主页",
   username: "Jinkai Zheng",
   title: "Jinkai Zheng 郑锦凯",
-  subTitle:
-    "郑锦凯，男，博士，杭州电子科技大学特聘副研究员，杭电丽水研究院科研管理部主任。主要从事人工智能、计算机视觉、步态识别、多模态网络等领域的技术研究和“产学研”结合的应用实现。曾担任京东探索研究院研究型算法工程师，负责智能人体分析算法研发。与海内外多家知名高校和企业保持良好的合作关系，可推荐优秀学生前往京东研究院、联想研究院、华为等企业实习（联合培养）或就业。以第一作者发表高水平论文多篇，包括计算机视觉和多媒体领域顶级国际学术会议CVPR、ACM MM等， 谷歌学术引用量达680余次，并长期担任领域内重要期刊（TIP、TMM、TCSVT等）和会议（CVPR、ICCV、ACM MM等）的审稿人，参与科技部--国家重点研发计划等多项，授权发明专利4项，相关科研成果曾被中国新闻网、中国科学报、浙江省教育厅等媒体报道。",
-  subtext:
+  subTitle1:
+    "郑锦凯，男，博士，杭州电子科技大学特聘副教授，杭电丽水研究院科研管理部主任。主要从事人工智能、计算机视觉、步态识别、多模态网络等领域的技术研究和“产学研”结合的应用实现。曾担任京东探索研究院研究型算法工程师，负责智能人体分析算法研发。与海内外多家知名高校和企业保持良好的合作关系，可推荐优秀学生前往京东探索研究院、中国科学技术大学、联想研究院、华为等企业实习（联合培养）、就业或深造。以第一作者发表高水平论文多篇，包括计算机视觉和多媒体领域顶级国际学术会议IEEE CVPR、ACM MM、IEEE ISCAS等， 谷歌学术引用量达750余次，并长期担任领域内重要期刊（TIP、TMM、TCSVT等）和会议（CVPR、ICCV、ACM MM、AAAI等）的审稿人，参与科技部--国家重点研发计划等多项，授权发明专利4项。",
+  subTitle2: 
+    " 研究成果获2024年度吴文俊人工智能科技进步特等奖（排名第四），2023年中国图象图形学学会CSIG青年科学家会议优秀论文（排名第一），2021年度国际会议IEEE ISCAS MSA-TC最佳论文提名奖（排名第一），相关科研成果曾被中国新闻网、中国科学报、浙江省教育厅等媒体报道。",
+  subtext1:
     "常年招收具有自我驱动力的优秀本科生，进行科研创新训练，欢迎与我联系。(zhengjinkai3@hdu.edu.cn)",
+  subtext2:
+    "现招收2025级硕士研究生，欢迎感兴趣的同学与我联系（zhengjinkai3@hdu.edu.cn）",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -53,10 +61,14 @@ const greeting_en = {
   main: "Homepage",
   username: "Jinkai Zheng",
   title: "Jinkai Zheng 郑锦凯",
-  subTitle:
-    "Dr. Zheng Jinkai, Ph.D., is an associate researcher, mainly engaged in the research of artificial intelligence, computer vision, gait recognition, multimodal networks and other areas of technical research and the implementation of the combination of “industry, academia and research” applications. He worked as a research algorithm engineer in Jingdong Exploration Research Institute and was responsible for the research and development of intelligent human body analysis algorithms. He maintains good cooperative relationships with many famous universities and enterprises at home and abroad, and can recommend excellent students to go to Jingdong Research Institute, Lenovo Research Institute, Huawei and other enterprises for internship (joint training) or employment. He has published many high-level papers as the first author, including CVPR, ACM MM, etc., which are the top international academic conferences in the field of computer vision and multimedia, with more than 680 Google citations, and has long been serving as the reviewer of important journals (TIP, TMM, TCSVT, etc.) and conferences (CVPR, ICCV, ACM MM, etc.) in the field, and has participated in many key R&D programs of the Ministry of Science and Technology of the People's Republic of China. He has participated in a number of national key R&D programs of the Ministry of Science and Technology (MOST)-National Key R&D Programs, etc. He has been authorized 4 invention patents, and his related scientific research achievements have been reported by China News Network, China Science News, and Zhejiang Provincial Department of Education.",
-  subtext:
-    "Excellent self-driven undergraduate students are recruited year-round for research and innovation training, please feel free to contact me. (zhengjinkai3@hdu.edu.cn)",
+  subTitle1:
+    "  Jinkai Zheng is an Associate Professor at Hangzhou Dianzi University (HDU) and the Director of the Research Management Department at the Lishui Institute of HDU. His research focuses on artificial intelligence, computer vision, gait recognition, multi-modal networks, and industry-academia collaboration. He previously served as a Research Engineer at JD Explore Academy, responsible for the development of intelligent human analysis algorithms. He has good partnerships with renowned universities and enterprises. He can recommend outstanding students for internships (Joint supervision), employment, or further study at institutions such as JD Explore Academy, the University of Science and Technology of China, Lenovo Research, Huawei, etc. He has published many high-level papers as the first author including IEEE CVPR, ACM MM, etc, with over 750 Google Scholar citations. He is a regular reviewer for important journals (TIP, TMM, TCSVT, etc) and conferences (CVPR, ICCV, ACM MM, etc). Dr. Zheng has participated in several national key R&D programs and holds 4 authorized invention patents. ",
+  subTitle2:
+    "  The research achievements won the Grand Prize of Wu Wenjun Artificial Intelligence Science and Technology Progress Award, China, 2024 (ranked fourth); the Excellent Paper Award of CSIG, China, 2023 (ranked first); the Best Paper Award - Honorable Mention of IEEE ISCAS MSA-TC, Daegu, Korea, 2021 (ranked first). In addition, His research achievements have been reported by China News Network, China Science Bulletin, and the Zhejiang Provincial Department of Education.",
+  subtext1:
+    "  We are recruiting self-motivated undergraduate students in computer vision and multimedia. Please contact me (zhengjinkai3@hdu.edu.cn) if you are interested.",
+  subtext2: 
+    "  We are now recruiting 2025 graduate students, welcome to contact me (zhengjinkai3@hdu.edu.cn) if you are interested.",
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -72,37 +84,37 @@ const socialMediaLinks = {
 
 const introContent = {
   title: {zh:"进组须知",
-          en:"Entry instructions"},
+          en:"Entry Instructions"},
   content: {
-    en:["The research group is affiliated to IIPL, Intelligent Information Processing Laboratory, Hangzhou Dianshi University, and focuses on academic research in computer vision. After joining the research team, students will be equipped with solid professional knowledge, rigorous scientific thinking, broad academic vision, and the ability to independently discover, think and solve problems after carefully organized scientific research training. At the same time, the research team aims to publish relevant research results in top computer vision conferences and journals, or make core technical contributions in important engineering projects. In addition, the research team maintains good cooperative relations with many well-known universities and enterprises at home and abroad, and can recommend outstanding students to go to Jingdong Research Institute, Lenovo Research Institute, Huawei and other enterprises for internship (joint training) or employment.",
+    en:["The research group is affiliated with the Intelligent Information Processing Laboratory (IIPL) at Hangzhou Dianzi University, specializing in computer vision. Students will undergo rigorous training to develop professional expertise, scientific thinking, and the ability to independently identify and solve research problems. In addition, We aim to publish relevant research results in high-level conferences/journals or make core technical contributions to important engineering projects. The research group maintains good collaborative relations with many well-known universities and enterprises and can recommend outstanding students for internships (Joint supervision), employment, or further study at institutions such as JD Explore Academy, University of Science and Technology of China, Lenovo Research, Huawei, etc.",
     {
-      heading:"Group entry requirement",
+      heading:"Entry Requirements",
       items: [
-        "Respect for elders, diligence and frugality, honesty and integrity, humility and politeness, and dedication to learning.",
-        "Maintain a healthy mind and body, and be positive and upward-looking. Encourage students to actively participate in physical exercise.",
-        "Have clear goals and plans, and a good understanding of yourself: Be clear about why you want to join the research group, what you expect to gain from it, and why you are a good fit for the group. <strong>If you are only interested in getting a degree without genuine commitment, please do not contact us! Let's be honest with each other. If you decide to give up, please inform us as early as possible!</strong> Once our positions are filled, we will forward qualified candidates to colleagues. We will also recommend outstanding candidates to supervisors whose research directions match their interests. Best of luck to all the students in your applications!",
-        "Possess curiosity and a thirst for knowledge, and be rich in the spirit of challenge: Be eager to explore the unknown, prefer engaging in innovative work rather than repetitive tasks, and be able to face setbacks with the right mindset.",
-        "We are open to accepting undergraduate students for research training. However, due to limited resources, we will not consider students who are simultaneously working in multiple laboratories or participating in competitions. Please understand this limitation! (Note: Regarding competitions, we only support those that are based on the research topic, such as applying for competitions like Xinmiao, National Undergraduate Innovation Projects, Internet Plus, and Challenge Cup.)Additionally, we require students to commit to a minimum of 10 hours per week for research during the semester and at least 8 hours per day during winter and summer vacations. Research is a process that requires continuous accumulation and dedication. Please avoid working intermittently and ensure consistent effort.",
-        "Regarding graduation standards: Our research group requires students to strictly adhere to academic norms. If any form of academic misconduct is detected during their studies—whether intentional or unintentional due to poor habits—the possibility of graduation will be forfeited. Barring the aforementioned extreme cases, students who meet the university's graduation requirements will graduate on schedule within the normal timeframe.",
-        "For graduate students, the first year of study is often filled with numerous courses, leaving limited time for research, which makes it difficult to produce high-quality research outcomes. Therefore, we encourage students who are planning to join our group to start engaging in our research activities in advance (remotely if necessary).",
-        "It is essential to ensure sufficient time for research, with one-on-one weekly communication. No additional holidays will be provided except during winter vacation (summer vacation will generally have a unified break of about ten days), but there will be no打卡签到（punching in and out）. As long as the progress of the research is maintained, occasional breaks or visits from friends and family can be taken at any time with leave application. It is recommended to avoid peak travel seasons and choose weekdays for outings.",
-        "After confirming your participation in the research group, it is recommended that you follow the following roadmap to supplement your foundational knowledge."
+        "Respect teachers, hard-working and thrifty, honest and trustworthy, modest and polite, sincere and studious.",
+        "Physical and mental health, positively, encourage students to actively participate in physical exercise.",
+        "Have clear goals and plans, and a good understanding of yourself: Be clear about why you want to join the research group, what you expect to gain from it, and why you fit into the group. If you are just for the diploma, please do not contact us!!! Let's be honest with each other. If you decide to give up, please inform us as early as possible! Once our positions are filled, we will forward qualified candidates to colleagues. We will also recommend outstanding candidates to supervisors whose research directions match their interests. Best of luck to all the students in your applications!",
+        "Have curiosity and thirst for knowledge, full of challenging spirit: willing to explore unknown things, like to engage in innovative work rather than repetitive work, and can face setbacks with the right attitude.",
+        "We have limited resources to accept undergraduate students for scientific research training. We do not consider students who work in multiple laboratories at the same time or participate in competitions. (Note: For competitions, only applications for New Seedling Program, Dachuang, Internet +, Challenge Cup, and other competitions are supported based on the projects done.) At the same time, it is required that the average working time of scientific research is more than 10 hours per week during each semester, and the working time of winter and summer vacation is more than 8 hours per day. Research is a process of sustained accumulation, please do not work by fits and starts.",
+        "Regarding graduation criteria: The research group requires students to adhere strictly to academic norms. Academic misconduct (intentional or unintentional) will lose the possibility of graduation. In addition to the above extreme cases, students meeting university requirements will graduate on schedule.",
+        "For graduate students, the first year of study is often filled with numerous courses, leaving limited time for research, which makes it difficult to produce high-quality research outcomes. Therefore, we encourage students who are planning to join our group to study in advance (can be remote).",
+        "It is essential to ensure sufficient time for research, with one-on-one communication every week. No additional holidays except winter vacation (summer vacation will generally be unified about ten days), but do not punch in. Based on ensuring the progress of scientific research, occasionally relax or relatives and friends can visit at any time to ask for leave, it is recommended to avoid the peak flow of people and choose weekday travel.",
+        "After joining the research group, it is recommended to follow the following guidelines to supplement the basic knowledge."
       ]
     },
     {
-      heading: "Strategy",
+      heading: "Guidelines",
       items: [
-        "Python Basics: The use of Variables, Constants, Loops, Conditionals, Functions, Classes, and NumPy",
-        "Mathematical Foundation: The most frequently used mathematical tool in research is linear algebra. For those who wish to review linear algebra, I recommend watching 《Essence of Linear Algebra》<a href='https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.1387.collection.video_card.click&vd_source=449f18121128b7d85236aa94bf8faf60' target='_blank' rel='noopener noreferrer'>[Link]</a>。.",
-        "Fundamentals of Deep Learning: PyTorch, convolution, pooling, gradient descent, backpropagation, regularization, dropout, fully connected layers, batch normalization (BN), etc. It is recommended to study the relevant content through《动手学深度学习（Pytorch版）》by Aston Zhang (Mu Li)<a href='https://tangshusen.me/Dive-into-DL-PyTorch/#/' target='_blank' rel='noopener noreferrer'>[Link]</a>",
-        "Fundamentals of Computer Vision: AlexNet, VGG, ResNet, Faster R-CNN, U-Net, etc. It is recommended to watch video tutorials for relevant learning<a href='https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.337.search-card.all.click&vd_source=e60a34382e2d52dfcf6ae4d16cc2bf3f' target='_blank' rel='noopener noreferrer'>[Link]</a>.",
-        "Basic Linux operations. For detailed learning, please refer to the online course<a href='https://www.lanqiao.cn/courses/1' target='_blank' rel='noopener noreferrer'>[Link]</a>"
+        "Python Basics: The use of Use variables, constants, loops, judgments, functions, classes, numpy, etc.",
+        "Mathematical Foundation: The most frequently used mathematical tool in research is linear algebra. For those who wish to review linear algebra, we recommend the《Essence of Linear Algebra》.<a href='https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.1387.collection.video_card.click&vd_source=449f18121128b7d85236aa94bf8faf60' target='_blank' rel='noopener noreferrer'>[Link]</a>。.",
+        "Deep Learning Basics: PyTorch, convolution, pooling, gradient descent, backpropagation, regularization, dropout, fully connected layers, batch normalization (BN), etc. We recommend the  《Dive into Deep Learning (Pytorch)》by Mu Li.<a href='https://tangshusen.me/Dive-into-DL-PyTorch/#/' target='_blank' rel='noopener noreferrer'>[Link]</a>",
+        "Computer Vision Foundation: AlexNet, VGG, ResNet, Faster-RCNN, UNet, Transformer, etc. It is recommended to watch video tutorials for relevant learning.<a href='https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.337.search-card.all.click&vd_source=e60a34382e2d52dfcf6ae4d16cc2bf3f' target='_blank' rel='noopener noreferrer'>[Link]</a>.",
+        "Linux Basics: For detailed learning, please refer to the Cloud Course.<a href='https://www.lanqiao.cn/courses/1' target='_blank' rel='noopener noreferrer'>[Link]</a>"
       ]
     },
-    <strong>If you are interested in computer vision, image processing, machine learning, deep learning, multimedia, or related fields, I welcome you to choose me as your supervisor and join my research group. Here, you will be provided with a conducive environment for scientific research and academic development. For outstanding performers, I would be more than happy to recommend you for further studies or job opportunities.</strong>
+    <strong>If you are interested in computer vision, image processing, machine learning, deep learning, multimedia, etc. You are welcome to choose me as your supervisor and join my research group, which will provide you with a good scientific and academic environment. If you perform well, I will be happy to recommend you to work or school for further study.</strong>
   ],
   zh: [
-    "本研究小组隶属于杭州电子科技大学智能信息处理实验室IIPL，研究小组专注于计算机视觉方面的学术研究。学生加入研究小组后，经过精心组织的科研训练，将具备扎实的专业知识、缜密的科研思维、广阔的学术视野，独立发现问题、思考问题、解决问题的能力。同时，研究小组致力于在计算机视觉顶级会议和期刊上发表相关研究成果，或在重要工程项目中做出核心技术贡献。此外，研究小组与海内外多家知名高校和企业保持良好的合作关系，可推荐优秀学生前往京东研究院、联想研究院、华为等企业实习（联合培养）或就业。",
+    "本研究小组隶属于杭州电子科技大学智能信息处理实验室IIPL，研究小组专注于计算机视觉方面的学术研究。学生加入研究小组后，经过精心组织的科研训练，将具备扎实的专业知识、缜密的科研思维、广阔的学术视野，独立发现问题、思考问题、解决问题的能力。同时，研究小组致力于在计算机视觉顶级会议和期刊上发表相关研究成果，或在重要工程项目中做出核心技术贡献。此外，研究小组与海内外多家知名高校和企业保持良好的合作关系，可推荐优秀学生前往京东研究院、中国科学技术大学、联想研究院、华为等企业实习（联合培养）、就业或深造。",
     {
       heading: "进组要求",
       items: [
@@ -123,7 +135,7 @@ const introContent = {
         "Python基础：变量，常量，循环，判断，函数，类，numpy等使用。",
         "数学基础：在研究过程中用到最多的数学工具是线性代数，想复习线性代数的知识推荐看《线性代数的本质》<a href='https://www.bilibili.com/video/BV1ys411472E/?spm_id_from=333.1387.collection.video_card.click&vd_source=449f18121128b7d85236aa94bf8faf60' target='_blank' rel='noopener noreferrer'>[Link]</a>。",
         "深度学习基础：Pytorch，卷积，池化，梯度下降，反向传播，正则化，dropout，全连接，BN等，建议观看李沐的《动手学深度学习（Pytorch版）》<a href='https://tangshusen.me/Dive-into-DL-PyTorch/#/' target='_blank' rel='noopener noreferrer'>[Link]</a>进行相关学习。",
-        "计算机视觉基础：AlexNet、VGG、Res-Net、faster-rcnn、UNet等，建议观看视频教程<a href='https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.337.search-card.all.click&vd_source=e60a34382e2d52dfcf6ae4d16cc2bf3f' target='_blank' rel='noopener noreferrer'>[Link]</a>进行相关学习。",
+        "计算机视觉基础：AlexNet、VGG、ResNet、Faster-rcnn、UNet、Transformer等，建议观看视频教程<a href='https://www.bilibili.com/video/BV1Wv411h7kN/?spm_id_from=333.337.search-card.all.click&vd_source=e60a34382e2d52dfcf6ae4d16cc2bf3f' target='_blank' rel='noopener noreferrer'>[Link]</a>进行相关学习。",
         "linux基本操作，详见云课<a href='https://www.lanqiao.cn/courses/1' target='_blank' rel='noopener noreferrer'>[Link]</a>进行相关学习。"
       ]
     },
@@ -209,7 +221,7 @@ const groupMembers = {
         en: "Class of XX",
         zh: "xx级"
       },
-      image: "path/to/jane-smith.jpg",
+      image: wjx,
       description: {
         en: "Join Huawei",
         zh: "入职华为"
@@ -229,7 +241,7 @@ const groupMembers = {
         en: "Graduate Student",
         zh: "22级"
       },
-      image: "path/to/jane-smith.jpg",
+      image: whl,
       description: {
         en: "Gait recognition",
         zh: "步态识别"
@@ -247,7 +259,7 @@ const groupMembers = {
         en: "Graduate Student",
         zh: "23级"
       },
-      image: "path/to/jane-smith.jpg",
+      image: ysp,
       description: {
         en: "Gait recognition",
         zh: "步态识别"
@@ -590,14 +602,13 @@ const projects = {
 
 const directionContent = {
     title: { zh:"研究方向",
-             en:"Work"},
+             en:"Research Directions"},
     subtitle:{ zh: "步态识别",
                en: "Gait recognition" },
     description: { zh:[
-      "步态是一种极具潜力的生物特征，能反映人们的行走方式。由于个体运动和体型等差异，每个人都具有独特的步态特征，因此可以利用步态特征对视频中的目标行人进行身份识别。",
-      "相比其他生物特征，步态具有远程获取、非侵犯性和难以伪装等优势。步态识别技术在智慧安防、健康医疗、公共安全等多个领域均有着巨大的优势和发展潜力。"],               
-                   en: [ "Gait, as a highly potent biometric trait, reflects the unique manner in which individuals walk. Owing to variations in individual movements and body types, each person possesses distinct gait characteristics, which can be leveraged for the identification of target pedestrians in video footage.",
-                  "Compared to other biometric features, gait has the advantages of remote acquisition, non-invasiveness, and resistance to camouflage. Gait recognition technology holds significant potential and competitive edge in various fields, including intelligent security, healthcare, and public safety."]},
+      "步态是一种极具潜力的生物特征，能反映人们的行走方式。由于个体运动和体型等差异，每个人都具有独特的步态特征，因此可以利用步态特征对视频中的目标行人进行身份识别。相比其他生物特征，步态具有远程获取、非侵犯性和难以伪装等优势。步态识别技术在智能安防、健康医疗、智慧城市等多个领域均有着巨大的优势和发展潜力。"],               
+                   en: [ "Gait, as a potential biometric trait, reflects the unique pattern of human walking. Due to the differences in individual movement and body type, each person has a unique gait characteristic, which can be leveraged to identify the target pedestrian in the video. Compared with other biometric features, gait has the advantages of being remotely accessible, non-contacting, and hard to impersonate, etc. Gait recognition has great advantages and development potential in various fields, including intelligent security, healthcare, smart cities, etc."]
+                  },
     display: true
 };
 

@@ -29,11 +29,13 @@ export default function Greeting() {
               <p
                 className={
                   isDark
-                    ? "dark-mode greeting-text-p"
+                    ? "dark-mode greeting-text-1"
                     : "greeting-text-p subTitle"
                 }
               >
-                {isEn ? greeting_en.subTitle : greeting.subTitle}
+                {isEn ? greeting_en.subTitle1 : greeting.subTitle1}
+                <br />
+                {isEn ? greeting_en.subTitle2 : greeting.subTitle2}
               </p>
               {/* <div id="resume" className="empty-div"></div> */}
               <p
@@ -43,10 +45,14 @@ export default function Greeting() {
                     : "greeting-text-p subtext"
                 }
               >
-                <p>
-                  {isEn ? greeting_en.subtext : greeting.subtext}{" "}
+                <div>
+                  {isEn ? greeting_en.subtext1 : greeting.subtext1}
+                  <br />
+                  <span className="bold-text"> {/* 加粗容器 */}
+                    {isEn ? greeting_en.subtext2 : greeting.subtext2}
+                  </span>
                   <span className="wave-emoji">{emoji("👋")}</span>
-                </p>
+                </div>
               </p>
               <div className="greeting-contact-div">
                 {/* <Button
@@ -70,7 +76,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt="person"
-              src={require("../../assets/images/profile.png")}
+              src={require("../../assets/images/zjk1.jpg")}
             ></img>
           </div>
         </div>

@@ -15,6 +15,11 @@
   margin-top: 2rem;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
+
 .greeting-main {
   display: flex;
 }
@@ -40,11 +45,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 120px;
-  padding-top: 50px;
+  padding: 50px 40px 120px;
   box-sizing: border-box;
+  max-width: 1600px; 
+  margin: 0 auto;
 
   @media (max-width: 800px) {
     padding-left: 40px;
@@ -64,11 +68,20 @@
 }
 
 .greeting-image-div {
-  flex: 3;
-  padding: 20px;
+  flex: 1;
+  min-width: 45%;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative; 
+
+  img {
+    width: 100%; 
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+  }
 }
 
 .greeting-text {
@@ -84,6 +97,7 @@
   font-size: 20px;
   line-height: 40px;
   text-align: left;
+  color: $google;
 }
 
 .greeting-subtext-p {

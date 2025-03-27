@@ -6,6 +6,7 @@ import {ToggleSwitch, LangSwitch} from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
+  greeting_en,
   groupMembers,
   introContent,
   academicAchievements,
@@ -48,7 +49,7 @@ function Header() {
         <Link to ="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className={isDark ? "dark-menu logo-name" : "logo-name"}>
-            {greeting.main}
+            {isEn ? greeting_en.main : greeting.main}
           </span>
           <span className="grey-color">&gt;</span>
         </Link>
@@ -72,7 +73,7 @@ function Header() {
           )}
           {viewIntro && (
             <li>
-              <Link to="/intro">{isEn ? "Note" : "进组须知"}</Link>
+              <Link to="/intro">{isEn ? "Entry Instructions" : "进组须知"}</Link>
             </li>
           )}
           {viewAchievement && (
@@ -82,7 +83,7 @@ function Header() {
           )}
           {viewDirection && (
             <li>
-              <Link to="/direction">{isEn ? "Work" : "研究方向"}</Link>
+              <Link to="/direction">{isEn ? "Research Directions" : "研究方向"}</Link>
             </li>
           )}
           {viewPlog && (
