@@ -76,7 +76,7 @@ const greeting_en = {
 // Social Media Links
 
 const socialMediaLinks = {
-  googlescholar: "https://scholar.google.com/citations?user=1qoGuQMAAAAJ&hl=zh-CN&oi=ao",
+  googlescholar: "https://scholar.google.com.hk/citations?user=1qoGuQMAAAAJ&hl=zh-CN&oi=ao",
   github: "https://github.com/JinkaiZheng",
   email: "zhengjinkai3@hdu.edu.cn",
   display: true // Set true to display this section, defaults to false
@@ -218,8 +218,8 @@ const groupMembers = {
         zh: "王锦欣"
       },
       role: {
-        en: "Class of XX",
-        zh: "xx级"
+        en: "Grade of 21",
+        zh: "21级"
       },
       image: wjx,
       description: {
@@ -238,7 +238,7 @@ const groupMembers = {
         zh: "王立昊"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 22",
         zh: "22级"
       },
       image: whl,
@@ -256,7 +256,7 @@ const groupMembers = {
         zh: "袁淑萍"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 23",
         zh: "23级"
       },
       image: ysp,
@@ -274,7 +274,7 @@ const groupMembers = {
         zh: "李轩"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 24",
         zh: "24级"
       },
       image: lx,
@@ -292,7 +292,7 @@ const groupMembers = {
         zh: "金新翔"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 24",
         zh: "24级"
       },
       image: jxx,
@@ -310,7 +310,7 @@ const groupMembers = {
         zh: "于策"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 24",
         zh: "24级"
       },
       image: yc,
@@ -328,7 +328,7 @@ const groupMembers = {
         zh: "韦嘉庆"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 24",
         zh: "24级"
       },
       image: wjq,
@@ -346,7 +346,7 @@ const groupMembers = {
         zh: "陈浩枫"
       },
       role: {
-        en: "Graduate Student",
+        en: "Grade of 25",
         zh: "25级"
       },
       image: chf,
@@ -366,8 +366,8 @@ const groupMembers = {
         zh: "林敏豪"
       },
       role: {
-        en: "Undergraduate Student",
-        zh: "本科生"
+        en: "Grade of 23",
+        zh: "23级"
       },
       image: lmh,
       description: {
@@ -384,8 +384,8 @@ const groupMembers = {
         zh: "李家彬"
       },
       role: {
-        en: "Undergraduate Student",
-        zh: "本科生"
+        en: "Grade of 23",
+        zh: "23级"
       },
       image: ljb,
       description: {
@@ -402,8 +402,8 @@ const groupMembers = {
         zh: "陈森"
       },
       role: {
-        en: "Undergraduate Student",
-        zh: "本科生"
+        en: "Grade of 23",
+        zh: "23级"
       },
       image: cs,
       description: {
@@ -420,8 +420,8 @@ const groupMembers = {
         zh: "邓晨曦"
       },
       role: {
-        en: "Undergraduate Student",
-        zh: "本科生"
+        en: "Grade of 23",
+        zh: "23级"
       },
       image: dcx,
       description: {
@@ -620,38 +620,38 @@ const plogContent = {
   items:{ zh:[
     {
       title: "",
-      description: "为鼓励大家好好备战期末，学期末最后一次组会，锦凯老师请大家吃披萨!",
+      description: "为鼓励大家好好备战期末，学期末最后一次组会，请大家吃披萨!",
       image: plog0,
       imageAlt: "plog0",
     },
     {
       title: "",
-      description: "聚餐",
+      description: "欢送即将毕业学生",
       image: plog1,
       imageAlt: "plog1",
     },
     {
       title: "",
-      description: "开学后一起聚餐",
+      description: "开学聚餐",
       image: plog2,
       imageAlt: "plog2",
     },
   ],en: [
     {
       title: "",
-      description:  "In order to encourage everyone to prepare for the end of the semester, the last group meeting at the end of the semester, Mr. Jin Kai invited everyone to eat pizza",
+      description:  "To encourage everyone to prepare well for the final exams, at the last group meeting of the semester, we will treat everyone to pizza.",
       image: plog0,
       imageAlt: "plog0",
     },
     {
       title: "",
-      description: "Dine together",
+      description: "Farewell to the students about to graduate",
       image: plog1,
       imageAlt: "plog1",
     },
     {
       title: "",
-      description: "Having a meal together after the start of the school term",
+      description: "Back-to-school dinner party",
       image: plog2,
       imageAlt: "plog2",
     },]},
