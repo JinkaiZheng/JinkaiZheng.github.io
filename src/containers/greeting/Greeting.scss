@@ -43,12 +43,18 @@
 .greet-main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   padding: 50px 40px 120px;
   box-sizing: border-box;
   max-width: 1600px; 
   margin: 0 auto;
+  @media (max-width: 2560px) {
+    max-width: 2000px; 
+
+  }
+  @media (max-width: 1480px) {
+
+  }
 
   @media (max-width: 800px) {
     padding-left: 40px;
@@ -69,7 +75,7 @@
 
 .greeting-image-div {
   flex: 1;
-  min-width: 45%;
+  min-width: 40%;
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -82,6 +88,7 @@
     object-fit: cover;
     object-position: top center; 
     border-radius: 12px;
+    margin-top: 105px;
   }
 }
 
@@ -165,12 +172,22 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px) {
+
+
+@media (max-width: 1440px) {
   .greeting-text {
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 1029px) {
+  .greeting-image-div {
+    img{
+      margin-top: 160px;
+    }
   }
 }
 @media (max-width: 768px) {
@@ -192,10 +209,20 @@
   .greeting-image-div {
     height: 256px;
   }
+  .greeting-image-div {
+    img{
+      margin-top: 20px;
+    }
+  }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .greeting-image-div {
+    img{
+      margin-top: 20px;
+    }
   }
 }
